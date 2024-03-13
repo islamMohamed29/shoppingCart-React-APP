@@ -1,23 +1,33 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+<h1 align="center" id="title">shoppingCart</h1>
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+<p align="center"><img src="https://socialify.git.ci/islamMohamed29/shoppingCart-React-App/image?font=KoHo&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;theme=Dark" alt="project-image"></p>
 
-# testing
-/coverage
+<p id="description">Full Responsive "shoppingCart" React-App Build with react-redux &amp; redux/toolkit &amp; bootstrap &amp; deal with API.</p>
 
-# production
-/build
+<h2>🚀 Demo</h2>
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+[https://shoppingcart-react-redux-toolkit.netlify.app/](https://shoppingcart-react-redux-toolkit.netlify.app/)
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Responsive
+*   Sorting
+*   Search
+*   SPA
+
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   React.js
+*   react-redux
+*   redux/toolkit
+*   bootstrap
+
+<h2>💖Like my work?</h2>
+
+If you are one of the people who liked the project and benefited from it in any way please put a star and contribute to raising my account on LinkedIn by following me.<p>https://www.linkedin.com/in/islam29/</p>
