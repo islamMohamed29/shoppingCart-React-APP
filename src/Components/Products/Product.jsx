@@ -1,7 +1,7 @@
 import React from "react";
 import { addItem } from "../../reducers/cartReducer";
-import { connect, useDispatch } from "react-redux";
-const Product = ({ product }) => {
+import { useDispatch } from "react-redux";
+export default function const Product ({ product }) {
   let dispatch = useDispatch();
 
   return (
@@ -26,4 +26,3 @@ const Product = ({ product }) => {
   );
 };
 
-export default connect(null, { addItem })(Product);
