@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Product from "./Product";
-import { connect, useSelector } from "react-redux";
-import { updateSearchTerm } from "../../reducers/cartReducer";
+import { useSelector } from "react-redux";
 import Search from "../Search/Search";
 
-const Products = () => {
+export default function Products () {
   const [products, setProducts] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
@@ -88,10 +87,3 @@ const Products = () => {
     </>
   );
 };
-
-const mapStateToProps = (state) => ({
-  products: state.products,
-  searchTerm: state.cart.searchTerm,
-  loading: state.cart.loading,
-});
-export default connect(mapStateToProps, { updateSearchTerm })(Products);
