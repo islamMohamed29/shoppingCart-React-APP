@@ -5,8 +5,8 @@ import {
   decreaseQuantity,
   addItem,
 } from "../../reducers/cartReducer";
-import { connect, useDispatch } from "react-redux";
-const Cart = () => {
+import {  useDispatch } from "react-redux";
+export default function Cart () {
   let cartItems = useSelector((state) => state.cart.cartItems);
   let dispatch = useDispatch();
 
@@ -90,4 +90,3 @@ const Cart = () => {
   );
 };
 
-export default connect(null, { removeItem })(Cart);
